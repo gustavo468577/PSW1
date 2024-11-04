@@ -3,8 +3,8 @@ body {
     margin: 0%;
     flex-direction: column;
     display: flex;
-    overflow: hidden;
-  
+    
+    
 }
 
 .header {
@@ -15,45 +15,15 @@ body {
     text-align: center;
 }
 
-.link {
-
-    text-align: center;
-
-    grid-area: nav;
-    
-
-    & div{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    & a{
-        padding: 8px;
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-    }
-
-    & a:hover{
-        background-color: rgb(224, 224, 224);
-    }
-
-    #b1 {
-        margin-right: 550px;
-    }
-
-    #b2 {
-        margin-right: 530px;
-    }
-
-    #b3 {
-        margin-right: 500px;
-    }
-
+#cet {
+    width: 100px;
+    height: auto;
+    display: block;
+    position: relative;
+    bottom: 90px;
+    margin-left: 94%;
 }
+
 .if {
     width: 90px;
     height: auto;
@@ -61,11 +31,18 @@ body {
     position: relative;
     bottom: 120px;
 
-
 }
 h1 {
     text-align: center;
     color: white;
+    font-style: italic;
+}
+
+#titulo {
+    text-align: center;
+    margin-top:-35%;
+    margin-right: 40%;
+    font-style: italic;
 }
 
 .p1 {
@@ -86,7 +63,7 @@ h1 {
 .text {
     display: block;
     position: relative;
-    bottom: 50px;
+    bottom: 55px;
     
 }
 
@@ -94,7 +71,7 @@ h1 {
     background-color: black;
     width: auto;
     height: 40px;
-    margin-top: 83px;
+    margin-top: 100px;
     line-height: 0px
 }
 h3 {
@@ -103,15 +80,12 @@ h3 {
     
 }
 
-.lado {
-
-}
  #img1 {
     width: 230px;
     height: auto;
     display: block;
     position: relative;
-    bottom: 530px;
+    bottom: 600px;
     left: 83%;
     right: 0%;
     top: 0%;
@@ -122,7 +96,41 @@ h3 {
     height: auto;
     display: block;
     position: relative;
-    bottom: 520px;
+    bottom: 550px;
     left: 83%;
  }
 
+ #barra {
+    background-color: black;
+    width: auto;
+    height: 700px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 1170px;
+    margin-right: 350px;
+    margin-top: -80%;
+ }
+
+ .button button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+   
+ }
+
+ .button {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: -150px;
+    margin-right: 250px;
+    margin-left: -30px;
+ }
+
+ .button button:hover {
+    background-color: #c9c8c8;
+}
