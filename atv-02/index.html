@@ -8,20 +8,58 @@
 </head>
 <body>
 
-    <div>
+    <div class="nome">
         <h1>FORMULÁRIO</h1>
         <p>PREENCHA TODOS OS CAMPOS!</p>
     </div>
 
     <form>
-        <fieldset>
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome">
-            </div>
-        </fieldset>
+        
+            <div class="form">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Ex: Gustavo" required>
 
+                <label for="sn">Sobrenome:</label>
+                <input type="text" name="sn" id="sn" placeholder="Ex: Oliveira Tolentino" required>
+            
+            <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="prefiro">Prefiro não informar</option>
+            </select>
+
+            <label for="usuario">Crie um nome de usuário:</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Ex: Guuh1234" required>
+
+            <label for="email">Digite um email:</label>
+            <input type="email" name="email" id="email" placeholder="Ex: Gustavo123@gmail.com" required>
+
+            <label for="senha">Crie uma senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Ex: 123456" required>
+
+            <label for="telefone">Digite seu telefone:</label>
+            <input type="number" name="telefone" id="telefone" placeholder="Ex (99) 9999-9999" required>
+
+            <label for="aniversário">Sua data de aniversário:</label>
+            <input type="date" name="aniversário" id="aniversário">
+
+            <label for="curriculo">Seu curriculo:</label>
+            <input type="image" name="curriculo" id="curriculo" id="img">
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </div>
     </form>
+
+        <div class="barra">
+            <ul>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">LOCALIZAÇÃO</a></li>
+                <li><a href="#">GALERIA</a></li>
+                <li><a href="#">SOBRE NÓS</a></li>
+            </ul>
+        </div>
     
 </body>
 </html>
