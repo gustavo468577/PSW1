@@ -1,0 +1,98 @@
+body {
+   background-color: rgb(255, 243, 225);
+   margin: 0;
+}
+
+
+form {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(88, 87, 87);
+    border-radius: 20px;
+    margin-bottom: 0px;
+    border: solid 2px black;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.cab{
+    text-align: center;
+    background-color: rgb(88, 87, 87);
+    padding: 5px;
+    border-top: solid black 2px;
+   
+}
+
+.barra-nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(88, 87, 87);
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    float: left;
+    padding: 0px 30px;
+}
+
+li a {  
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.entrada {
+    text-align: center;
+}
+
+.pessoal{
+    margin-top: 0px;
+    margin-left: 50px;
+    padding: 1px;
+    font-size: 14px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+label {
+    margin-top: 0px;
+}
+
+.loc {
+    margin-left: 50px;
+    margin-top: 0px;
+    padding: 1px;
+    font-size: 14px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    
+}
+
+#ul-direita {
+    width: 500px;
+}
+
+input {
+    margin-top: -14px;
+}
+
+select {
+    margin-top: -14px;
+}
+

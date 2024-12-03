@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadaluno-styles.css">
+    <title>cadaluno</title>
+</head>
+<body>
+
+    <div class="cabecalho">
+        <img id="logo-psw" src="imagem/logo-psw.png" alt="">
+        <h1>Página de Cadastro PSW-I</h1>
+        <img id="logo-if" src="imagem/logo-if.png" alt="">
+    </div>
+
+    <div class="divisoria-nav"></div>
+
+    <div class="barra-nav">
+        <ul>
+            <li><a href="http://localhost:8081/paulo-atv03/index.php">Home</a></li>
+            <li><a href="https://suap.ifbaiano.edu.br/accounts/login/?next=/">Suap</a></li>
+            <li><a href="https://web.whatsapp.com/">WhatsApp</a></li>
+            <li><a href="https://www.google.com/maps/dir/-14.232444,-42.7556864/Instituto+Federal+de+Educa%C3%A7%C3%A3o,+Ci%C3%AAncia+e+Tecnologia+Baiano+-+Campus+Guanambi,+Caixa+Postal+N%C2%BA+09+Distrito+de,+Sa%C3%ADda+p%2F+cera%C3%ADma+-+n,+%E2%80%93+Zona+Rural,+Guanambi+-+BA,+46430-000/@-14.2666334,-42.769777,13z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x75ac88e01cf19d5:0x3eeac85e6070b24b!2m2!1d-42.6936198!2d-14.3014979!3e0?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D">Localização</a></li>
+        </ul>
+    </div>
+
+    <div class="titulo-2">
+        <h2>Preencha Todos Os Campos Abaixo:</h2>
+    </div>
+
+<form>
+    <div class="formulario">
+        <div class="formulario-esquerda">
+            <label for="nome">Nome Completo: </label>
+            <input type="text" name="nome" id="nome" placeholder="Ex: Paulo Gabriel Silva" required>
+
+            <label for="bairro">Bairro: </label>
+            <input type="text" name="bairro" id="bairro" placeholder="Ex: Morada Nova" required>
+
+            <label for="estado">Estado(UF):</label>
+               <select id="estado" name="estado">
+               <option>Acre(AC)</option>
+               <option>Alagoas(AL)</option>
+               <option>Amapá(AP)</option>
+               <option>Amazonas(AM)</option>
+               <option>Bahia(BA)</option>
+               <option>Ceará(CE)</option>
+               <option>Distrito Federal(DF)</option>
+               <option>Espírito Santo(ES)</option>
+               <option>Goiás(GO)</option>
+               <option>Maranhão(MA)</option>
+               <option>Mato Grosso(MT)</option>
+               <option>Mato Grosso do Sul(MS)</option>
+               <option>Minas Gerais(MG)</option>
+               <option>Pará(PA)</option>
+               <option>Paraíba(PB)</option>
+               <option>Paraná(PR)</option>
+               <option>Pernambuco(PE)</option>
+               <option>Piauí(PI)</option>
+               <option>Rio de Janeiro(RJ)</option>
+               <option>Rio Grande do Norte(RN)</option>
+               <option>Rio Grande do Sul(RS)</option>
+               <option>Rondônia(RO)</option>
+               <option>Roraima(RR)</option>
+               <option>Santa Catarina(SC)</option>
+               <option>São Paulo(SP)</option>
+               <option>Sergipe(SE)</option>
+               <option>Tocantins(TO)</option>
+               </select>
+
+            <label for="telefone">Telefone: </label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Ex: 3451-6393" required>
+
+            <label for="nascimento">Nascimento: </label>
+            <input type="date" name="nascimento" id="nascimento" required>
+
+            <div class="radio">
+                <ul id="ul-esquerda" >
+                    <label>Disciplina Preferida: </label><br>
+                    <input type="radio" id="mat" name="pref">
+                    <label for="mat">Matemática</label>
+                    <input type="radio" id="port" name="pref"> 
+                    <label for="port">Português</label>
+                    <input type="radio" id="psw" name="pref">
+                    <label for="psw">PSW-I</label>
+                    <input type="radio" id="fis" name="pref">
+                    <label for="fis">Física</label>
+                    <input type="radio" id="asw" name="pref">
+                    <label for="asw">ASW</label>
+                </ul>
+            </div>
+
+        </div>
+        
+        <div class="formulario-direita">
+            <label for="endereco">Endereço: </label>
+            <input type="text" name="endereco" id="endereco" placeholder="Ex: Rua Monteiro Lobato" required>
+
+            <label for="cidade">Cidade: </label>
+            <input type="text" name="cidade" id="cidade" placeholder="Ex: Guanambi" required>
+
+            <label for="cpf">CPF: </label>
+            <input type="text" name="cpf" id="cpf" placeholder="Ex: 000.000.000-00" required>
+
+            <label for="zap">WhatsApp: </label>
+            <input type="tel" name="zap" id="zap" placeholder="Ex: 77998403950" required>
+
+            <label for="senha">Crie uma Senha: </label>
+            <input type="password" name="senha" id="senha" placeholder="Ex: Silva.123" required>
+
+            <div class="checkbox">
+                <ul id="ul-direita" >
+                    <label>Disciplinas Cursadas: </label><br>
+                    <input type="checkbox" name="mat" id="mat">
+                    <label for="mat">Matemática</label>                    
+                    <input type="checkbox" name="port" id="port">
+                    <label for="port">Português</label>                   
+                    <input type="checkbox" name="psw" id="psw">
+                    <label for="psw">PSW-I</label>   
+                    <input type="checkbox" name="fis" id="fis">
+                    <label for="fis">Física</label>                   
+                    <input type="checkbox" name="asw" id="asw">
+                    <label for="asw">ASW</label>
+               </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="botao">
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+    </div>
+</form>
+
+    <div class="rodape">
+        <h5>© 2024 - TODOS OS DIREITOS RESERVADOS A PAULO WISNIEWSKI</h5>
+        <a href="https://github.com/psw1-2024"><img id="logo-git" src="imagem/logo-git.webp" alt=""></a>
+    </div>
+    
+</body>
+</html>
