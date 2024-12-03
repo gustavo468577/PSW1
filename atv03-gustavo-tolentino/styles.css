@@ -22,16 +22,8 @@ form {
     background-color: gray;
     padding: 5px;
     border-top: solid black 2px;
-   
-}
-
-.barra-nav{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: gray;
-    border-top: solid black 2px;
     border-bottom: solid black 2px;
+   
 }
 
 
@@ -103,7 +95,7 @@ select {
 }
 
 .rodap {
-    margin-top: 20px;
+    margin-top: 80px;
     background-color: gray;
     padding: 10px;
     border-top: solid black 2px;
