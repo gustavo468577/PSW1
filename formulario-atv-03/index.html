@@ -30,16 +30,16 @@
         <div class="pessoal">
                 
             <label for="nome">NOME COMPLETO:</label><br>
-            <input type="text" name="nome" id="nome" placeholder="Ex: Gustavo Oliveira Tolentino"><br>
+            <input type="text" name="nome" id="nome" placeholder="Ex: Gustavo Oliveira Tolentino" required><br>
            
             <label for="cpf">CPF:</label><br>
-            <input type="number" name="cpf" id="cpf" placeholder="Ex: 999.999.999-99"><br>
+            <input type="number" name="cpf" id="cpf" placeholder="Ex: 999.999.999-99" required><br>
 
             <label for="cell">TELEFONE:</label><br>
-            <input type="number" name="cell" id="cell"><br>
+            <input type="number" name="cell" id="cell" placeholder="Ex: 9999-9999" required><br>
 
             <label for="zap">WHATSAAP:</label><br>
-            <input type="number" name="zap" id="zap"><br>
+            <input type="number" name="zap" id="zap" placeholder="Ex: 3899998888" required><br>
 
             <label for="niver">DATA DE NASCIMENTO:</label><br>
             <input type="date" name="niver" id="niver"><br>
@@ -108,15 +108,27 @@
             </select><br>
 
             <label for="cidade">CIDADE:</label><br>
-            <input type="text" name="cidade" id="cidade"><br>
+            <input type="text" name="cidade" id="cidade" placeholder="Ex: Urandi" required><br>
 
             <label for="end">ENDEREÇO:</label><br>
-            <input type="text" name="end" id="end"><br>
+            <input type="text" name="end" id="end" placeholder="Ex: Rua da Bahia" required><br>
 
             <label for="bairro">BAIRRO:</label><br>
-            <input type="text" name="bairro" id="bairro"><br>
-           
+            <input type="text" name="bairro" id="bairro" placeholder="Ex: Centro" required><br>
+
+            <label for="senha">CRIE UMA SENHA:</label><br>
+            <input type="password" name="senha" id="senha" placeholder="Ex: 12345" required>
+
+            <div class="botao">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
             </div>
+            </div>
+           
     </form>
+
+    <div class="rodap">
+        "© 2024 - TODOS OS DIREITOS RESERVADOS A GUSTAVO TOLENTINO"
+    </div>
 </body>
 </html>

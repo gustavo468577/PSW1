@@ -9,17 +9,17 @@ form {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(88, 87, 87);
+    background-color: gray;
     border-radius: 20px;
     margin-bottom: 0px;
     border: solid 2px black;
-    height: 500px;
+    height: 430px;
     padding-top: 30px;
 }
 
 .cab{
     text-align: center;
-    background-color: rgb(88, 87, 87);
+    background-color: gray;
     padding: 5px;
     border-top: solid black 2px;
    
@@ -29,7 +29,7 @@ form {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: rgb(88, 87, 87);
+    background-color: gray;
     border-top: solid black 2px;
     border-bottom: solid black 2px;
 }
@@ -62,15 +62,17 @@ h2 {
 
 .pessoal{
     margin-top: 0px;
-    margin-left: 50px;
+    margin-left: 60px;
     padding: 1px;
     font-size: 14px;
     display: flex;
     width: 500px;
     flex-direction: column;
+    float: left;
 }
 label {
     margin-top: 0px;
+    font-weight: 400;
 }
 
 .loc {
@@ -81,7 +83,7 @@ label {
     display: flex;
     width: 500px;
     flex-direction: column;
-    
+    float: left;
 }
 
 #ul-direita {
@@ -90,9 +92,48 @@ label {
 
 input {
     margin-top: -14px;
+    border-radius: 5px;
+    border: solid black 1px;
 }
 
 select {
     margin-top: -14px;
+    border-radius: 5px;
+    border: solid black 1px;
 }
 
+.rodap {
+    margin-top: 20px;
+    background-color: gray;
+    padding: 10px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 80px;
+    width: 60px;
+    margin-left: 35%;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    width: 60px;
+    margin-left: 5%;
+    background-color: greenyellow;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+.botao input:hover {
+    color: #333333ab;
+    background-color: gray;
+}
+
+.botao {
+    display: flex;
+    float: left;
+
+}
