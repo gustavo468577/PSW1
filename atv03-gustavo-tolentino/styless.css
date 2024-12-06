@@ -1,0 +1,71 @@
+body {
+   background-color: rgb(255, 243, 225);
+   margin: 0px;
+}
+h1{
+    text-align: center;
+}
+.cab{
+    
+}
+form{
+    margin-top: 20px;
+     display: flex;
+     margin-left: 10%;
+     margin-right: 10%;
+     background-color: gray;
+     border-radius: 20px;
+     margin-bottom: 0px;
+     border: solid 2px black;
+     height: 430px;
+     padding-top: 30px;
+}
+
+
+.esquerdo{
+    margin-top: 0px;
+    margin-left: 60px;
+    padding: 1px;
+    font-size: 14px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    float: left;
+}
+
+.direito{
+    margin-left: 50px;
+    margin-top: 0px;
+    padding: 1px;
+    font-size: 14px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    float: left;
+}
+
+label{
+    
+}
+
+input{
+ width: 500px;
+margin-bottom: 5px;
+}
+
+input[type="checkbox"]{
+  width: 15px;
+  
+}
+#cursadas {
+    flex-direction: row;
+    margin-top: -17px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 0px;
+}
+
+select {
+    width: 500px;
+}
