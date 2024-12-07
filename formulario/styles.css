@@ -1,5 +1,6 @@
+/*cadaluno*/
 body {
-    background-color: rgb(255, 243, 225);
+    background-color: rgb(207, 207, 207);
     margin: 0;
  }
  
@@ -78,8 +79,14 @@ body {
      float: left;
  }
  
+ #ul-esquerda {
+    margin-top: -5px;
+    margin-left: -35px;
+ }
+
  #ul-direita {
      width: 500px;
+     margin-left: -35px;
  }
  
  input {
@@ -103,8 +110,8 @@ body {
      text-align: center;
  }
  
- input[type="submit"] {
-     margin-top: 80px;
+    #salvar {
+     margin-top: 50px;
      width: 60px;
      margin-left: 35%;
      background-color: greenyellow;
@@ -116,7 +123,7 @@ body {
      margin-left: 5%;
      background-color: greenyellow;
      cursor: pointer;
-     margin-top: 80px;
+     margin-top: 50px;
  }
  
  .botao input:hover {
@@ -129,3 +136,125 @@ body {
      float: left;
  
  }
+
+ #sen {
+    margin-top: 17px;
+ }
+
+ .home {
+
+ }
+
+ .home li{
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    margin-top: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: -33px;
+ }
+
+ /*listaaluno*/
+.table{
+    margin-top: 30px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th,td {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.rodap2 {
+    margin-top: 380px;
+    background-color: gray;
+    padding: 10px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    text-align: center;
+}
+.home2 li{
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    margin-top: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 330px;
+    margin-left: -33px;
+    margin-right: 40px;
+ }
+ 
+
+ /*index*/
+
+ .login{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    background-color: gray;
+    margin-left: 25%;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#log {
+    margin-left: 260px;
+    background-color: rgb(62, 62, 62);
+    margin-bottom: 200px;
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+
+.bot {
+    margin-top: 130px;
+    margin-left: -230px;
+}
+
+.bot li{
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    margin-top: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.rodap3 {
+    margin-top: 80px;
+     background-color: gray;
+     padding: 10px;
+     border-top: solid black 2px;
+     border-bottom: solid black 2px;
+     text-align: center;
+     margin-top: 250px;
+}

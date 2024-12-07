@@ -9,14 +9,14 @@
 <body>
 
         <div class="cab">
-            <h1>PÁGINA DE CADASTRO PSW-1</h1>
+            <h1>SISTEMA DE CADASTRO PSW-1</h1>
         </div>
 
         <div class="entrada">
             <h2>PREENCHA O FORMULÁRIO:</h2>
         </div>
 
-    <form action="" method="post">
+    <form action="listaaluno.php" method="post">
         <div class="pessoal">
                 
             <label for="nome">NOME COMPLETO:</label><br>
@@ -26,13 +26,24 @@
             <input type="number" name="cpf" id="cpf" placeholder="Ex: 999.999.999-99" required><br>
 
             <label for="email">EMAIL:</label><br>
-            <input type="number" name="email" id="email" placeholder="Ex: gustavo12345@gmail.com" required><br>
+            <input type="email" name="email" id="email" placeholder="Ex: gustavo12345@gmail.com" required><br>
 
             <label for="zap">WHATSAAP:</label><br>
             <input type="number" name="zap" id="zap" placeholder="Ex: (38) 9999-8888" required><br>
 
             <label for="niver">DATA DE NASCIMENTO:</label><br>
             <input type="date" name="niver" id="niver"><br>
+
+            <label for="turma">TURMA:</label><br>
+                <select id="turma" name="turma">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="1°aii">1°Aii</option>
+                    <option value="1°bii">1°Bii</option>
+                    <option value="2°aii">2°Aii</option>
+                    <option value="2°bii">2°Bii</option>
+                    <option value="3°aii">3°Aii</option>
+                    <option value="3°bii">3°Bii</option>
+                </select>
 
             <ul id="ul-direita" >
                 <label>Disciplinas Cursadas: </label><br>
@@ -47,20 +58,6 @@
                 <input type="checkbox" name="psw" id="psw">
                 <label for="asw">PSW-1</label>
            </ul>
-           
-           <ul id="ul-esquerda" >
-            <label>Disciplina Preferida: </label><br>
-            <input type="radio" id="fil" name="pref">
-            <label for="fil">Filosofia</label>
-            <input type="radio" id="bio" name="pref"> 
-            <label for="bio">Biologia</label>
-            <input type="radio" id="pi" name="pref">
-            <label for="pi">PI</label>
-            <input type="radio" id="fis" name="pref">
-            <label for="fis">Física</label>
-            <input type="radio" id="psw" name="pref">
-            <label for="psw">PSW-1</label>
-            </ul>
 
         </div>
         
@@ -106,16 +103,30 @@
             <label for="bairro">BAIRRO:</label><br>
             <input type="text" name="bairro" id="bairro" placeholder="Ex: Centro" required><br>
 
-            <label for="senha">CRIE UMA SENHA:</label><br>
+            <label for="pref">MATÉRIA PREFERIDA:</label><br>
+                <select id="pref" name="pref">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="Filosofia">Filosofia</option>
+                    <option value="Biologia">Biologia</option>
+                    <option value="PI">PI</option>
+                    <option value="Física">Física</option>
+                    <option value="PSW-1">PSW-1</option>
+                   
+                </select>
+
+            <label for="senha" id="sen">CRIE UMA SENHA:</label><br>
             <input type="password" name="senha" id="senha" placeholder="Ex: 12345" required>
 
             <div class="botao">
-                <input type="submit" value="Enviar">
+                <input type="submit" id="salvar" value="Salvar">
                 <input type="reset" value="Resetar">
             </div>
             </div>
            
     </form>
+    <ul class="home">
+        <li><a href="http://localhost:8081/formulario/index.php">HOME</a></li>
+    </ul>
 
     <div class="rodap">
         "© 2024 - TODOS OS DIREITOS RESERVADOS A GUSTAVO TOLENTINO"

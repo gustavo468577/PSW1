@@ -1,15 +1,11 @@
 body {
-   background-color: rgb(255, 243, 225);
-   margin: 0px;
-}
-h1{
-    text-align: center;
-}
-.cab{
-    
-}
-form{
-    margin-top: 20px;
+    background-color: rgb(255, 243, 225);
+    margin: 0;
+ }
+ 
+ 
+ form {
+     margin-top: 20px;
      display: flex;
      margin-left: 10%;
      margin-right: 10%;
@@ -19,53 +15,123 @@ form{
      border: solid 2px black;
      height: 430px;
      padding-top: 30px;
-}
-
-
-.esquerdo{
-    margin-top: 0px;
-    margin-left: 60px;
-    padding: 1px;
-    font-size: 14px;
-    display: flex;
-    width: 500px;
-    flex-direction: column;
-    float: left;
-}
-
-.direito{
-    margin-left: 50px;
-    margin-top: 0px;
-    padding: 1px;
-    font-size: 14px;
-    display: flex;
-    width: 500px;
-    flex-direction: column;
-    float: left;
-}
-
-label{
+ }
+ 
+ .cab{
+     text-align: center;
+     background-color: gray;
+     padding: 5px;
+     border-top: solid black 2px;
+     border-bottom: solid black 2px;
     
-}
+ }
+ 
+ 
+ ul {
+     list-style-type: none;
+     
+ }
+ 
+ li {
+     float: left;
+     padding: 0px 30px;
+ }
+ 
+ li a {  
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-size: 16px;
+ }
+ 
+ h2 {
+     text-align: center;
+ 
+ }
+ 
+ .entrada {
+     text-align: center;
+ }
+ 
+ .pessoal{
+     margin-top: 0px;
+     margin-left: 60px;
+     padding: 1px;
+     font-size: 14px;
+     display: flex;
+     width: 500px;
+     flex-direction: column;
+     float: left;
+ }
+ label {
+     margin-top: 0px;
+     font-weight: 400;
+ }
+ 
+ .loc {
+     margin-left: 50px;
+     margin-top: 0px;
+     padding: 1px;
+     font-size: 14px;
+     display: flex;
+     width: 500px;
+     flex-direction: column;
+     float: left;
+ }
+ 
+ #ul-esquerda {
+    margin-top: -5px;
+    margin-left: -35px;
+ }
 
-input{
- width: 500px;
-margin-bottom: 5px;
-}
-
-input[type="checkbox"]{
-  width: 15px;
-  
-}
-#cursadas {
-    flex-direction: row;
-    margin-top: -17px;
-    margin-bottom: 10px;
-}
-p {
-    margin-bottom: 0px;
-}
-
-select {
-    width: 500px;
-}
+ #ul-direita {
+     width: 500px;
+     margin-left: -35px;
+ }
+ 
+ input {
+     margin-top: -14px;
+     border-radius: 5px;
+     border: solid black 1px;
+ }
+ 
+ select {
+     margin-top: -14px;
+     border-radius: 5px;
+     border: solid black 1px;
+ }
+ 
+ .rodap {
+     margin-top: 80px;
+     background-color: gray;
+     padding: 10px;
+     border-top: solid black 2px;
+     border-bottom: solid black 2px;
+     text-align: center;
+ }
+ 
+ input[type="submit"] {
+     margin-top: 80px;
+     width: 60px;
+     margin-left: 35%;
+     background-color: greenyellow;
+     cursor: pointer;
+ }
+ 
+ input[type="reset"] {
+     width: 60px;
+     margin-left: 5%;
+     background-color: greenyellow;
+     cursor: pointer;
+     margin-top: 80px;
+ }
+ 
+ .botao input:hover {
+     color: #333333ab;
+     background-color: gray;
+ }
+ 
+ .botao {
+     display: flex;
+     float: left;
+ 
+ }
