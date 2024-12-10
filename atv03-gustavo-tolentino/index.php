@@ -16,8 +16,8 @@
             
 
         <ul class="bot">
-            <li><a href="http://localhost:8081/formulario/cadaluno.php">CADASTRAR-SE</a></li><br>
-            <li><a href="http://localhost:8081/formulario/listaaluno.php">CADASTRADOS</a></li>
+            <li><a href="http://localhost:8081/atv03-gustavo-tolentino/cadaluno.php">CADASTRAR-SE</a></li><br>
+            <li><a href="http://localhost:8081/atv03-gustavo-tolentino/listaaluno.php">CADASTRADOS</a></li>
         </ul>
 
         </div>
