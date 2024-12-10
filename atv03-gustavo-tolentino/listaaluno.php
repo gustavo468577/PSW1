@@ -116,8 +116,8 @@
 
     </table>
     <ul class="home2">
-        <li><a href="http://localhost:8081/formulario/index.php">HOME</a></li>
-        <li><a href="http://localhost:8081/formulario/cadaluno.php">CADASTRO</a></li>
+        <li><a href="http://localhost:8081/atv03-gustavo-tolentino/index.php">HOME</a></li>
+        <li><a href="http://localhost:8081/atv03-gustavo-tolentino/cadaluno.php">CADASTRO</a></li>
     </ul>
     <div class="rodap2">
         "© 2024 - TODOS OS DIREITOS RESERVADOS A GUSTAVO TOLENTINO"
